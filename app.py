@@ -18,7 +18,7 @@ def init_db():
     # //create table
     c.execute( ''' 
     create table if not exists weather_Log (
-              id INTEGER PRIMARY KEY AUTOINCREMENT,
+              id INTEGER PRIMARY KEY,
               city text,
               temp Real,
               condition TEXT,
